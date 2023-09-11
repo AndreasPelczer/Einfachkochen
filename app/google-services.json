@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "931908577336",
+    "project_id": "einfachkochen-afc7e",
+    "storage_bucket": "einfachkochen-afc7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931908577336:android:30f99aaa811051d1e6decd",
+        "android_client_info": {
+          "package_name": "com.example.einfachkochen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC50U8gXpU1u86s-Py6tFxYFXxPDpgI6Ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
