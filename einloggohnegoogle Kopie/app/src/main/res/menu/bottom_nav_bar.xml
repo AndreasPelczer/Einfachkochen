@@ -10,7 +10,7 @@
         android:title="Home"
         android:icon="@drawable/baseline_home_24"/>
     <item
-        android:id="@+id/thirdFragment"
+        android:id="@+id/videoFragment"
         android:title="Videos"
         android:icon="@drawable/baseline_video_library_24"/>
     <item
