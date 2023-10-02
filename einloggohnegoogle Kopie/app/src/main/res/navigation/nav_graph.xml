@@ -76,5 +76,28 @@
             android:id="@+id/action_tipFragment_to_dataFragment"
             app:destination="@id/dataFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.einloggohnegoogle.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/activity_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_dataFragment"
+            app:destination="@id/dataFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_videoFragment"
+            app:destination="@id/videoFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_tipFragment"
+            app:destination="@id/tipFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_klausFragment2"
+            app:destination="@id/klausFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/klausFragment2"
+        android:name="com.example.einloggohnegoogle.ui.KlausFragment"
+        android:label="fragment_klaus"
+        tools:layout="@layout/fragment_klaus" />
 
 </navigation>
