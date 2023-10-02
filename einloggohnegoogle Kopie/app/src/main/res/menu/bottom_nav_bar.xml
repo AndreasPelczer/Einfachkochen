@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/dataFragment"
-        android:title="Rezepte"
+        android:title="Meine-Rezepte"
         android:icon="@drawable/baseline_library_books_24"/>
     <item
         android:id="@+id/klausFragment"
@@ -14,9 +15,10 @@
         android:title="Videos"
         android:icon="@drawable/baseline_video_library_24"/>
     <item
-        android:id="@+id/tipFragment"
-        android:title="Settings"
-        android:icon="@drawable/baseline_settings_24"/>
+        android:id="@+id/neuesRezeptFragment"
+        android:title="Neues-Rezept"
+        android:icon="@android:drawable/ic_menu_add"/>
+
 
 
 </menu>
