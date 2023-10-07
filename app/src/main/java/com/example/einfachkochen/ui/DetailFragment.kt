@@ -39,7 +39,6 @@ class DetailFragment : Fragment() {
         }
         binding.cardView.setOnClickListener{
             val navController = findNavController()
-            navController.navigate(DetailFragmentDirections.actionDetailFragmentToHomeFragment())
         }
     }
 }

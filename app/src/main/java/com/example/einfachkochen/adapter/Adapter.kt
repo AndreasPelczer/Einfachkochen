@@ -34,7 +34,6 @@ class Adapter(
 
         holder.binding.cardViewCV.setOnClickListener {
             holder.itemView.findNavController()
-                .navigate(HomeFragmentDirections.actionHomeFragmentToDetailFragment(dataset[position].id))
         }
         val likeImageResource = if (item.istLiked) R.drawable.baseline_favorite_24
         else R.drawable.baseline_favorite_border_24

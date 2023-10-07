@@ -2,13 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:title="Home"
-        android:id="@+id/home"
+        android:id="@+id/homeFragment"
         android:icon="@drawable/ic_action_name"/>
+
     <item android:title="Favoriten"
-        android:id="@+id/favorite"
+        android:id="@+id/favoritFragment"
         android:icon="@drawable/baseline_favorite_24"/>
     <item
-        android:id="@+id/video"
+        android:id="@+id/rezeptListeFragment"
         android:icon="@drawable/ic_launcher_foreground"
         android:title="Rezepte" />
 

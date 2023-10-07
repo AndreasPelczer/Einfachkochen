@@ -1,4 +1,4 @@
-package com.example.einfachkochen
+package com.example.einfachkochen.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,11 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import com.example.einfachkochen.FactsViewModel
+import com.example.einfachkochen.FavoritenAdapter
 import com.example.einfachkochen.databinding.FragmentFavoritBinding
 
 class FavoritFragment : Fragment() {
 
-    private val viewModel:FactsViewModel by viewModels()
+    private val viewModel: FactsViewModel by viewModels()
     private lateinit var binding: FragmentFavoritBinding
 
     override fun onCreateView(
@@ -27,7 +29,7 @@ class FavoritFragment : Fragment() {
         binding.recyclerViewFavoritenRV.setHasFixedSize(true)
 
         viewModel.likedDataList.observe(viewLifecycleOwner){
-            binding.recyclerViewFavoritenRV.adapter=FavoritenAdapter(viewModel,it)
+            binding.recyclerViewFavoritenRV.adapter= FavoritenAdapter(viewModel,it)
         }
     }
 
